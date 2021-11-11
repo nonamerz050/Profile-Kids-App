@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		526F2F99273C035A00E7A88B /* Profile_Kids_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F2F98273C035A00E7A88B /* Profile_Kids_AppApp.swift */; };
-		526F2F9B273C035B00E7A88B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F2F9A273C035B00E7A88B /* ContentView.swift */; };
+		526F2F9B273C035B00E7A88B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F2F9A273C035B00E7A88B /* MainView.swift */; };
 		526F2F9D273C035E00E7A88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526F2F9C273C035E00E7A88B /* Assets.xcassets */; };
 		526F2FA0273C035E00E7A88B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526F2F9F273C035E00E7A88B /* Preview Assets.xcassets */; };
+		526F2FAD273C040E00E7A88B /* UserTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F2FAC273C040E00E7A88B /* UserTextFields.swift */; };
+		526F2FAF273C04B500E7A88B /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F2FAE273C04B500E7A88B /* Constans.swift */; };
+		526F2FB1273C056F00E7A88B /* DataUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F2FB0273C056F00E7A88B /* DataUserModel.swift */; };
+		526F2FB5273C43E200E7A88B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F2FB4273C43E200E7A88B /* MainViewModel.swift */; };
+		526F2FB7273C488E00E7A88B /* DataKidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F2FB6273C488E00E7A88B /* DataKidModel.swift */; };
+		526F2FB9273C4FC800E7A88B /* KidTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F2FB8273C4FC800E7A88B /* KidTextFields.swift */; };
+		526F2FBD273C620F00E7A88B /* AddKidButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F2FBC273C620F00E7A88B /* AddKidButton.swift */; };
+		526F2FBF273C6B0E00E7A88B /* DeleteKidButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F2FBE273C6B0E00E7A88B /* DeleteKidButton.swift */; };
+		526F2FC1273C7E5900E7A88B /* ClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F2FC0273C7E5900E7A88B /* ClearButton.swift */; };
+		526F2FC5273C9B9800E7A88B /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F2FC4273C9B9800E7A88B /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		526F2F95273C035A00E7A88B /* Profile Kids App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Profile Kids App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		526F2F98273C035A00E7A88B /* Profile_Kids_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile_Kids_AppApp.swift; sourceTree = "<group>"; };
-		526F2F9A273C035B00E7A88B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		526F2F9A273C035B00E7A88B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		526F2F9C273C035E00E7A88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526F2F9F273C035E00E7A88B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		526F2FAC273C040E00E7A88B /* UserTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTextFields.swift; sourceTree = "<group>"; };
+		526F2FAE273C04B500E7A88B /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		526F2FB0273C056F00E7A88B /* DataUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUserModel.swift; sourceTree = "<group>"; };
+		526F2FB4273C43E200E7A88B /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		526F2FB6273C488E00E7A88B /* DataKidModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataKidModel.swift; sourceTree = "<group>"; };
+		526F2FB8273C4FC800E7A88B /* KidTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidTextFields.swift; sourceTree = "<group>"; };
+		526F2FBC273C620F00E7A88B /* AddKidButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddKidButton.swift; sourceTree = "<group>"; };
+		526F2FBE273C6B0E00E7A88B /* DeleteKidButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteKidButton.swift; sourceTree = "<group>"; };
+		526F2FC0273C7E5900E7A88B /* ClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearButton.swift; sourceTree = "<group>"; };
+		526F2FC4273C9B9800E7A88B /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,10 @@
 		526F2F97273C035A00E7A88B /* Profile Kids App */ = {
 			isa = PBXGroup;
 			children = (
+				526F2FA6273C03A500E7A88B /* Views */,
+				526F2FAE273C04B500E7A88B /* Constans.swift */,
+				526F2FC4273C9B9800E7A88B /* Styles.swift */,
 				526F2F98273C035A00E7A88B /* Profile_Kids_AppApp.swift */,
-				526F2F9A273C035B00E7A88B /* ContentView.swift */,
 				526F2F9C273C035E00E7A88B /* Assets.xcassets */,
 				526F2F9E273C035E00E7A88B /* Preview Content */,
 			);
@@ -65,6 +87,70 @@
 				526F2F9F273C035E00E7A88B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		526F2FA6273C03A500E7A88B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				526F2FA7273C03B100E7A88B /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		526F2FA7273C03B100E7A88B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				526F2FBB273C61F000E7A88B /* Buttons */,
+				526F2FAB273C03E500E7A88B /* Subviews */,
+				526F2FAA273C03DB00E7A88B /* Model */,
+				526F2FA9273C03CF00E7A88B /* View */,
+				526F2FA8273C03C000E7A88B /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		526F2FA8273C03C000E7A88B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				526F2FB4273C43E200E7A88B /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		526F2FA9273C03CF00E7A88B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				526F2F9A273C035B00E7A88B /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		526F2FAA273C03DB00E7A88B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				526F2FB0273C056F00E7A88B /* DataUserModel.swift */,
+				526F2FB6273C488E00E7A88B /* DataKidModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		526F2FAB273C03E500E7A88B /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				526F2FAC273C040E00E7A88B /* UserTextFields.swift */,
+				526F2FB8273C4FC800E7A88B /* KidTextFields.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		526F2FBB273C61F000E7A88B /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				526F2FBC273C620F00E7A88B /* AddKidButton.swift */,
+				526F2FBE273C6B0E00E7A88B /* DeleteKidButton.swift */,
+				526F2FC0273C7E5900E7A88B /* ClearButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +223,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526F2F9B273C035B00E7A88B /* ContentView.swift in Sources */,
+				526F2FBD273C620F00E7A88B /* AddKidButton.swift in Sources */,
+				526F2FB7273C488E00E7A88B /* DataKidModel.swift in Sources */,
+				526F2FB9273C4FC800E7A88B /* KidTextFields.swift in Sources */,
+				526F2FC5273C9B9800E7A88B /* Styles.swift in Sources */,
+				526F2FBF273C6B0E00E7A88B /* DeleteKidButton.swift in Sources */,
+				526F2FB5273C43E200E7A88B /* MainViewModel.swift in Sources */,
+				526F2F9B273C035B00E7A88B /* MainView.swift in Sources */,
 				526F2F99273C035A00E7A88B /* Profile_Kids_AppApp.swift in Sources */,
+				526F2FC1273C7E5900E7A88B /* ClearButton.swift in Sources */,
+				526F2FB1273C056F00E7A88B /* DataUserModel.swift in Sources */,
+				526F2FAF273C04B500E7A88B /* Constans.swift in Sources */,
+				526F2FAD273C040E00E7A88B /* UserTextFields.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
